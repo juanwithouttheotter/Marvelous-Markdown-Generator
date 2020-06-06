@@ -88,7 +88,7 @@ ${answers.Usage}
 ## License
 ${licenseBadge}
 ## Contributors
-####${answers.Contributing}
+#### ${answers.Contributing}
 ${answers.Guidelines}
 ## Tests
 ${answers.Tests}
