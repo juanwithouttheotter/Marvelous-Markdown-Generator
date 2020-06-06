@@ -68,7 +68,7 @@ inquirer
         
         const newReadMe = `
 # ${answers.Title}
-https://img.shields.io/github/languages/top/${answers.GithubProfile}/${answers.Title}
+![Github Badge](https://img.shields.io/github/languages/top/${answers.GithubProfile}/${answers.Title})
 
 See website at [Github](https://${answers.GithubProfile}.github.io/${answers.Title}/)
 
@@ -93,13 +93,13 @@ ${answers.Guidelines}
 ## Tests
 ${answers.Tests}
 ## Github
-####Profile
+#### Profile
 https://github.com/${answers.GithubProfile}
-####Email
+#### Email
 ${answers.GithubEmail}
     `;
 
-    fs.writeFile('test.md', newReadMe, function (err) {
+    fs.writeFile('../README.md', newReadMe, function (err) {
         if (err) throw err;
         console.log('You have a new MD file!');
       });
