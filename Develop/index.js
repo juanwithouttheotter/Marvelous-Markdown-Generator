@@ -93,9 +93,8 @@ ${answers.Description}
 ## Tests
     ${answers.Tests}
 ## Github
-    ${answers.GithubProfile}
+    [Github Profile](https://github.com/${answers.GithubProfile})
     ${answers.GithubEmail}
-
     `;
 
     fs.writeFile('test.md', newReadMe, function (err) {
