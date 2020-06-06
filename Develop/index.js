@@ -68,33 +68,33 @@ inquirer
         
         const newReadMe = `
 # ${answers.Title}
-[badge for project] (https://img.shields.io/github/languages/top/${answers.GithubProfile}/${answers.Title})
+(https://img.shields.io/github/languages/top/${answers.GithubProfile}/${answers.Title})
 
-See website at [Github] (https://${answers.GithubProfile}.github.io/${answers.Title}/)
+See website at [Github](https://${answers.GithubProfile}.github.io/${answers.Title}/)
 
 ${answers.Description}
 ## Contents
-    *[Installation](#Installation)
-    *[Usage](#Usage)
-    *[License](#License)
-    *[Credits](#Credits)
-    *[Tests](#Tests)
-    *[Github](#Github)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributors](#Contributors)
+* [Tests](#Tests)
+* [Github](#Github)
 
 ## Installation
-    ${answers.Installation}
+${answers.Installation}
 ## Usage
-    ${answers.Usage}
+${answers.Usage}
 ## License
-    ${licenseBadge}
+${licenseBadge}
 ## Contributors
-    ${answers.Contributing}
-    ${answers.Guidelines}
+####${answers.Contributing}
+${answers.Guidelines}
 ## Tests
-    ${answers.Tests}
+${answers.Tests}
 ## Github
-    [Github Profile](https://github.com/${answers.GithubProfile})
-    ${answers.GithubEmail}
+[Github Profile](https://github.com/${answers.GithubProfile})
+${answers.GithubEmail}
     `;
 
     fs.writeFile('test.md', newReadMe, function (err) {
