@@ -68,7 +68,7 @@ inquirer
         
         const newReadMe = `
 # ${answers.Title}
-(https://img.shields.io/github/languages/top/${answers.GithubProfile}/${answers.Title})
+https://img.shields.io/github/languages/top/${answers.GithubProfile}/${answers.Title}
 
 See website at [Github](https://${answers.GithubProfile}.github.io/${answers.Title}/)
 
@@ -93,7 +93,9 @@ ${answers.Guidelines}
 ## Tests
 ${answers.Tests}
 ## Github
-[Github Profile](https://github.com/${answers.GithubProfile})
+####Profile
+https://github.com/${answers.GithubProfile}
+####Email
 ${answers.GithubEmail}
     `;
 

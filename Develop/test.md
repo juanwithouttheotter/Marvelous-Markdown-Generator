@@ -1,10 +1,10 @@
 
 # Marvelous-Markdown-Generator
-(https://img.shields.io/github/languages/top/juanwithouttheotter/Marvelous-Markdown-Generator)
+https://img.shields.io/github/languages/top/juanwithouttheotter/Marvelous-Markdown-Generator
 
 See website at [Github](https://juanwithouttheotter.github.io/Marvelous-Markdown-Generator/)
 
-short description
+short
 ## Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -14,17 +14,19 @@ short description
 * [Github](#Github)
 
 ## Installation
-you need inquirer
+Inquirer
 ## Usage
-to create projects for readme
+make MD
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Contributors
-#### myself
+####myself
 don't take my things
 ## Tests
 none
 ## Github
-[Github Profile](https://github.com/juanwithouttheotter)
+####Profile
+https://github.com/juanwithouttheotter
+####Email
 juan.michael.osorio@gmail.com
     
