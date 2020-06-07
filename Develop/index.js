@@ -73,6 +73,7 @@ inquirer
 See website at [Github](https://${answers.GithubProfile}.github.io/${answers.Title}/)
 
 ${answers.Description}
+
 ## Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -83,17 +84,24 @@ ${answers.Description}
 
 ## Installation
 ${answers.Installation}
+
 ## Usage
 ${answers.Usage}
+
 ## License
 ${licenseBadge}
+
 ## Contribution
-**Contributors
+
+**Contributors**
+
 ${answers.Contributing}
----
+
 ${answers.Guidelines}
+
 ## Tests
 ${answers.Tests}
+
 ## Github
 
 **Profile**
@@ -101,6 +109,7 @@ ${answers.Tests}
 [https://github.com/${answers.GithubProfile}](https://github.com/${answers.GithubProfile})
 
 **Email**
+
 [${answers.GithubEmail}](${answers.GithubEmail})
     `;
 
