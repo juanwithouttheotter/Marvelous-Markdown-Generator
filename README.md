@@ -25,8 +25,10 @@ This is a repository used for educational purposes please refrain from forking o
 ## Tests
 none
 ## Github
-#### Profile
-https://github.com/juanwithouttheotter
-#### Email
-juan.michael.osorio@gmail.com
+**Profile**
+---
+[https://github.com/juanwithouttheotter](https://github.com/juanwithouttheotter)
+**Email**
+---
+[juan.michael.osorio@gmail.com](juan.michael.osorio@gmail.com)
     
