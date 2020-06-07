@@ -77,7 +77,7 @@ ${answers.Description}
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Contributors](#Contributors)
+* [Contribution](#Contribution)
 * [Tests](#Tests)
 * [Github](#Github)
 
@@ -87,16 +87,21 @@ ${answers.Installation}
 ${answers.Usage}
 ## License
 ${licenseBadge}
-## Contributors
-#### ${answers.Contributing}
+## Contribution
+**Contributors
+${answers.Contributing}
+---
 ${answers.Guidelines}
 ## Tests
 ${answers.Tests}
 ## Github
-#### Profile
-https://github.com/${answers.GithubProfile}
-#### Email
-${answers.GithubEmail}
+
+**Profile**
+
+[https://github.com/${answers.GithubProfile}](https://github.com/${answers.GithubProfile})
+
+**Email**
+[${answers.GithubEmail}](${answers.GithubEmail})
     `;
 
     fs.writeFile('../README.md', newReadMe, function (err) {
